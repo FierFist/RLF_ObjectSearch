@@ -39,7 +39,7 @@
 | `addQuantityToToolAfterUse` | `array[number]` | 搜索后对工具数量变化（fact 格式，可以正负） | `[0.0, 0.0, 0.0]` |
 | **小游戏设置** |
 | `showMiniGame` | `bool` | 是否启用小游戏（仅 findWithToolMode == 0 时有效） |  |
-| `miniGameType` | `int` | Screenshot_27Screenshot_26小游戏类型：<br>0 = 撬锁<br>1 = 保险箱 |  |
+| `miniGameType` | `int` | 小游戏类型。0 = 撬锁 ，1 = 保险箱 <br><img width="100" alt="Screenshot_27" src="https://github.com/user-attachments/assets/bbfa1c51-c1d0-4d68-ae82-e2937b7c88a4" /><img width="100"  alt="Screenshot_26" src="https://github.com/user-attachments/assets/edc2ef3b-11cc-4caa-9c66-f6ee912ca6aa" /> |  |
 | `miniGameToolsNeed` | `array[string]` | 触发小游戏所需工具列表；留空则无需工具 | `["Lockpick"]` |
 | `miniGameSettings` | `array` | 小游戏设置数组：`lp_` 前缀为类型 0，`sg_` 为类型 1 | `[]` |
 | `lp_RequiredHits` | `int` | 撬锁小游戏需命中次数 | `5` |
